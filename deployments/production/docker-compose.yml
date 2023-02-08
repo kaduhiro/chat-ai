@@ -1,0 +1,24 @@
+version: '3.8'
+
+x-var: &COMMON
+  networks:
+    internal:
+
+networks:
+  internal:
+
+services:
+  chat-ai:
+    <<: *COMMON
+    build: ../../build
+    image: kaduhiro/chat-ai
+    container_name: chat-ai
+    hostname: chat-ai
+    ports:
+      - 3000:3000
+    volumes:
+      - ../..:/app
+    command:
+      - /bin/sh
+      - -c
+      - 'yarn && yarn build && yarn start'
