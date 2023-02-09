@@ -2,6 +2,10 @@
 
 ChatAI, the revolutionary app that allows you to have a conversational experience like never before! With cutting-edge technology, ChatAI uses state-of-the-art artificial intelligence algorithms to understand and respond to your queries and requests. Whether you're looking for information on a specific topic, or just want to have a casual chat, ChatAI is the perfect app for you. So why wait? Download ChatAI today and start chatting with the future!
 
+## DEMO
+
+![image](https://user-images.githubusercontent.com/48912638/217803806-ec6076fb-f99e-4c2f-8755-70ab3833bd9d.png)
+
 ## Requirement
 
 * docker
